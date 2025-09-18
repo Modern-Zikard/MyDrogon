@@ -30,5 +30,6 @@ file(COPY ${CMAKE_SOURCE_DIR}/config.json
 # Линкуем drogon
 target_link_libraries(${PROJECT_NAME} PRIVATE Drogon::Drogon)
 
+# cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=E:/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake
 
 
