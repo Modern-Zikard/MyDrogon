@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.1.0)
+cmake_minimum_required(VERSION 3.22)
 
 set(PROJECT_NAME DrogonProject1)
 project(${PROJECT_NAME})
